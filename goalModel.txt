@@ -1,0 +1,593 @@
+{
+  "actors": [
+    {
+      "id": "9bded109-aa17-4669-8f9e-dce94b59eb72",
+      "text": "订餐用户",
+      "type": "istar.Actor",
+      "x": 190,
+      "y": 155,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "16e418dc-aa75-43b4-a139-b75d75d4fe96",
+          "text": "订餐",
+          "type": "istar.Goal",
+          "x": 294,
+          "y": 155,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5167f87d-135b-48aa-a0ed-b833efa780c0",
+          "text": "完成订餐流程",
+          "type": "istar.Task",
+          "x": 322,
+          "y": 255,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "4a340e8a-5423-43af-bfdc-3f16eac8b422",
+          "text": "选择商品",
+          "type": "istar.Task",
+          "x": 253,
+          "y": 346,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "9cfa06ef-6945-47fa-8d9c-42afa9a644c3",
+          "text": "浏览商品",
+          "type": "istar.Task",
+          "x": 191,
+          "y": 258,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e423fd5f-2d46-493d-ab88-ec065ec91f41",
+          "text": "支付并提交订单",
+          "type": "istar.Task",
+          "x": 379,
+          "y": 347,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "2f0eb36a-aeb8-41fc-b17f-3a56e9de1853",
+      "text": "配送员",
+      "type": "istar.Actor",
+      "x": 794,
+      "y": 68,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "3b3179c3-57f0-49d0-91be-d9f692c5d780",
+          "text": "配送",
+          "type": "istar.Task",
+          "x": 936,
+          "y": 143,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "00672b43-2d2f-4347-9507-878c98584415",
+          "text": "取餐",
+          "type": "istar.Task",
+          "x": 874,
+          "y": 200,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7125a767-cd1a-4318-a091-7a9e72a19540",
+          "text": "送餐",
+          "type": "istar.Task",
+          "x": 1009,
+          "y": 203,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "d54cc9d0-1946-45fb-b4f2-ad3e730c7e57",
+      "text": "商家",
+      "type": "istar.Actor",
+      "x": 873,
+      "y": 583,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "6327c0e1-afa9-46a5-810c-f5a9291f089e",
+          "text": "准备订单餐品",
+          "type": "istar.Task",
+          "x": 980,
+          "y": 679,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8aa5ded4-cc7a-4d81-bfd6-8e5c83127a78",
+          "text": "管理商家信息",
+          "type": "istar.Task",
+          "x": 950,
+          "y": 782,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "58a7cf39-2190-42e2-871b-70a0c3f66931",
+          "text": "注册登记",
+          "type": "istar.Task",
+          "x": 873,
+          "y": 901,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "27bdf873-de1d-4510-ad61-7ccf35df6f9a",
+          "text": "商品信息录入",
+          "type": "istar.Task",
+          "x": 976,
+          "y": 902,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5b1d9dbd-47f1-4995-86c0-eebea70ae244",
+          "text": "商品信息维护",
+          "type": "istar.Task",
+          "x": 1073,
+          "y": 900,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b575fbe6-0995-4926-8d2c-ca42915fea53",
+          "text": "处理订单请求",
+          "type": "istar.Task",
+          "x": 1059,
+          "y": 583,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "dc005125-8e92-464a-875a-5c8ad27c5092",
+          "text": "拒绝订单",
+          "type": "istar.Task",
+          "x": 1119,
+          "y": 679,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "1aa0835b-795b-47d6-b73f-ecb1dfb3d570",
+      "text": "网上订餐系统",
+      "type": "istar.Actor",
+      "x": 216,
+      "y": 619,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "aac1cd43-7311-4a31-9a18-9bec3a30d4a7",
+          "text": "订单分配",
+          "type": "istar.Task",
+          "x": 386,
+          "y": 679,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f6c1bb52-0120-4534-b1b3-6db19e391034",
+          "text": "路线规划",
+          "type": "istar.Task",
+          "x": 514,
+          "y": 633,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "2e19a386-ee9f-4159-98d3-25049fcf6aa6",
+          "text": "即时响应",
+          "type": "istar.Quality",
+          "x": 376,
+          "y": 756,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "d63a52b5-4cf0-4502-95e5-4fa2b1495e58",
+          "text": "安全可靠",
+          "type": "istar.Quality",
+          "x": 486,
+          "y": 754,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "9da1eed5-0821-4c40-a49b-1e47a92e25ed",
+          "text": "安全验证",
+          "type": "istar.Task",
+          "x": 484,
+          "y": 875,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a494e006-3cbc-44ee-84a7-e91ecebbb1be",
+          "text": "低成本",
+          "type": "istar.Quality",
+          "x": 267,
+          "y": 757,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "56d7658c-ae00-42c7-be87-edb7470298af",
+          "text": "多线程/进程并发",
+          "type": "istar.Task",
+          "x": 264,
+          "y": 864,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "0f8ae098-41b2-4309-9008-f63b3d461cb9",
+      "text": "已付款的有效订单",
+      "type": "istar.Resource",
+      "x": 361,
+      "y": 471,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "aac1cd43-7311-4a31-9a18-9bec3a30d4a7",
+      "target": "e423fd5f-2d46-493d-ab88-ec065ec91f41"
+    },
+    {
+      "id": "5860d2b7-a527-4b2a-9d57-a5f798952ca2",
+      "text": "商家接受订单",
+      "type": "istar.Task",
+      "x": 671,
+      "y": 681,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "6327c0e1-afa9-46a5-810c-f5a9291f089e",
+      "target": "aac1cd43-7311-4a31-9a18-9bec3a30d4a7"
+    },
+    {
+      "id": "369245d5-5067-4973-ab7e-f6823e94ac98",
+      "text": "订单餐品",
+      "type": "istar.Resource",
+      "x": 814,
+      "y": 424,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "00672b43-2d2f-4347-9507-878c98584415",
+      "target": "6327c0e1-afa9-46a5-810c-f5a9291f089e"
+    },
+    {
+      "id": "74ec0d0e-0f14-4c30-aba2-7fe2c50db1f5",
+      "text": "取餐",
+      "type": "istar.Task",
+      "x": 626,
+      "y": 141,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "9bded109-aa17-4669-8f9e-dce94b59eb72",
+      "target": "3b3179c3-57f0-49d0-91be-d9f692c5d780"
+    },
+    {
+      "id": "d73056ae-081e-4610-880f-adc3e5719602",
+      "text": "骑手接受订单",
+      "type": "istar.Task",
+      "x": 596.5,
+      "y": 420.5,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "00672b43-2d2f-4347-9507-878c98584415",
+      "target": "aac1cd43-7311-4a31-9a18-9bec3a30d4a7"
+    },
+    {
+      "id": "68b97faa-8c6d-4120-b3ee-d26660940975",
+      "text": "取餐路线",
+      "type": "istar.Resource",
+      "x": 707,
+      "y": 424,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "00672b43-2d2f-4347-9507-878c98584415",
+      "target": "f6c1bb52-0120-4534-b1b3-6db19e391034"
+    },
+    {
+      "id": "44cf51ce-3f57-4776-a3fa-adbd738e6793",
+      "text": "送餐路线",
+      "type": "istar.Resource",
+      "x": 946,
+      "y": 426,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "7125a767-cd1a-4318-a091-7a9e72a19540",
+      "target": "f6c1bb52-0120-4534-b1b3-6db19e391034"
+    }
+  ],
+  "links": [
+    {
+      "id": "66c84a17-88d9-4c73-a437-cfeae11ca368",
+      "type": "istar.AndRefinementLink",
+      "source": "5167f87d-135b-48aa-a0ed-b833efa780c0",
+      "target": "16e418dc-aa75-43b4-a139-b75d75d4fe96"
+    },
+    {
+      "id": "40acb3ce-48e5-4d8b-9885-fb60f32a46ec",
+      "type": "istar.AndRefinementLink",
+      "source": "00672b43-2d2f-4347-9507-878c98584415",
+      "target": "3b3179c3-57f0-49d0-91be-d9f692c5d780"
+    },
+    {
+      "id": "30d274f0-2f72-4fb7-93b2-3300b837691a",
+      "type": "istar.AndRefinementLink",
+      "source": "7125a767-cd1a-4318-a091-7a9e72a19540",
+      "target": "3b3179c3-57f0-49d0-91be-d9f692c5d780"
+    },
+    {
+      "id": "3b7a165a-06d7-4386-b44e-9e560b12f59e",
+      "type": "istar.AndRefinementLink",
+      "source": "9cfa06ef-6945-47fa-8d9c-42afa9a644c3",
+      "target": "16e418dc-aa75-43b4-a139-b75d75d4fe96"
+    },
+    {
+      "id": "db529136-211d-4808-b2de-93eaaf75b64f",
+      "type": "istar.AndRefinementLink",
+      "source": "e423fd5f-2d46-493d-ab88-ec065ec91f41",
+      "target": "5167f87d-135b-48aa-a0ed-b833efa780c0"
+    },
+    {
+      "id": "92592638-87f7-4660-9c6e-42a766e9e87f",
+      "type": "istar.AndRefinementLink",
+      "source": "4a340e8a-5423-43af-bfdc-3f16eac8b422",
+      "target": "5167f87d-135b-48aa-a0ed-b833efa780c0"
+    },
+    {
+      "id": "a98a3717-4b81-47d9-b85a-7e27ee84b93b",
+      "type": "istar.DependencyLink",
+      "source": "aac1cd43-7311-4a31-9a18-9bec3a30d4a7",
+      "target": "0f8ae098-41b2-4309-9008-f63b3d461cb9"
+    },
+    {
+      "id": "fd9afe52-6141-42b0-8a5e-f99fad2597e5",
+      "type": "istar.DependencyLink",
+      "source": "0f8ae098-41b2-4309-9008-f63b3d461cb9",
+      "target": "e423fd5f-2d46-493d-ab88-ec065ec91f41"
+    },
+    {
+      "id": "ee9e11ce-80a9-440d-9198-fe86dd6ac2da",
+      "type": "istar.DependencyLink",
+      "source": "6327c0e1-afa9-46a5-810c-f5a9291f089e",
+      "target": "5860d2b7-a527-4b2a-9d57-a5f798952ca2"
+    },
+    {
+      "id": "c23695c4-ec67-4aea-a2dd-f5e0f1897aac",
+      "type": "istar.DependencyLink",
+      "source": "5860d2b7-a527-4b2a-9d57-a5f798952ca2",
+      "target": "aac1cd43-7311-4a31-9a18-9bec3a30d4a7"
+    },
+    {
+      "id": "61281415-ae1d-4386-be58-177de3188c7e",
+      "type": "istar.AndRefinementLink",
+      "source": "58a7cf39-2190-42e2-871b-70a0c3f66931",
+      "target": "8aa5ded4-cc7a-4d81-bfd6-8e5c83127a78"
+    },
+    {
+      "id": "391e34de-ea52-48de-b089-2fb68f349eaf",
+      "type": "istar.AndRefinementLink",
+      "source": "27bdf873-de1d-4510-ad61-7ccf35df6f9a",
+      "target": "8aa5ded4-cc7a-4d81-bfd6-8e5c83127a78"
+    },
+    {
+      "id": "b53e9bb5-00cb-4e35-81b2-277f23bff5a7",
+      "type": "istar.AndRefinementLink",
+      "source": "5b1d9dbd-47f1-4995-86c0-eebea70ae244",
+      "target": "8aa5ded4-cc7a-4d81-bfd6-8e5c83127a78"
+    },
+    {
+      "id": "260fd3fe-e326-4949-a56c-92da1bce6761",
+      "type": "istar.DependencyLink",
+      "source": "00672b43-2d2f-4347-9507-878c98584415",
+      "target": "369245d5-5067-4973-ab7e-f6823e94ac98"
+    },
+    {
+      "id": "7e1f5822-2e53-4fa8-a370-43d0530866a4",
+      "type": "istar.DependencyLink",
+      "source": "369245d5-5067-4973-ab7e-f6823e94ac98",
+      "target": "6327c0e1-afa9-46a5-810c-f5a9291f089e"
+    },
+    {
+      "id": "528ed086-9aeb-44dc-8312-c15e59fb381b",
+      "type": "istar.DependencyLink",
+      "source": "9bded109-aa17-4669-8f9e-dce94b59eb72",
+      "target": "74ec0d0e-0f14-4c30-aba2-7fe2c50db1f5"
+    },
+    {
+      "id": "6e4331ac-2b25-42f2-ba01-9aa26001a367",
+      "type": "istar.DependencyLink",
+      "source": "74ec0d0e-0f14-4c30-aba2-7fe2c50db1f5",
+      "target": "3b3179c3-57f0-49d0-91be-d9f692c5d780"
+    },
+    {
+      "id": "12794159-beda-44b9-b6ae-d31e201fb4c4",
+      "type": "istar.DependencyLink",
+      "source": "00672b43-2d2f-4347-9507-878c98584415",
+      "target": "d73056ae-081e-4610-880f-adc3e5719602"
+    },
+    {
+      "id": "cc953988-c038-4b23-8894-ec64e4722c0f",
+      "type": "istar.DependencyLink",
+      "source": "d73056ae-081e-4610-880f-adc3e5719602",
+      "target": "aac1cd43-7311-4a31-9a18-9bec3a30d4a7"
+    },
+    {
+      "id": "2b297879-d79b-4f96-9da8-b4e774af1c7b",
+      "type": "istar.DependencyLink",
+      "source": "00672b43-2d2f-4347-9507-878c98584415",
+      "target": "68b97faa-8c6d-4120-b3ee-d26660940975"
+    },
+    {
+      "id": "3a608ab2-1358-497c-8049-274fb4bb70ac",
+      "type": "istar.DependencyLink",
+      "source": "68b97faa-8c6d-4120-b3ee-d26660940975",
+      "target": "f6c1bb52-0120-4534-b1b3-6db19e391034"
+    },
+    {
+      "id": "04f6b9c4-2c91-4a5e-b1b0-d76eb7fed305",
+      "type": "istar.DependencyLink",
+      "source": "7125a767-cd1a-4318-a091-7a9e72a19540",
+      "target": "44cf51ce-3f57-4776-a3fa-adbd738e6793"
+    },
+    {
+      "id": "d5e6b84f-3449-4791-8e1b-8ef0d2e04157",
+      "type": "istar.DependencyLink",
+      "source": "44cf51ce-3f57-4776-a3fa-adbd738e6793",
+      "target": "f6c1bb52-0120-4534-b1b3-6db19e391034"
+    },
+    {
+      "id": "cfed0607-6698-48a7-8382-7b8c295aa785",
+      "type": "istar.QualificationLink",
+      "source": "2e19a386-ee9f-4159-98d3-25049fcf6aa6",
+      "target": "aac1cd43-7311-4a31-9a18-9bec3a30d4a7"
+    },
+    {
+      "id": "bb45f2d5-09a4-432e-afd0-d1e754dc293e",
+      "type": "istar.OrRefinementLink",
+      "source": "6327c0e1-afa9-46a5-810c-f5a9291f089e",
+      "target": "b575fbe6-0995-4926-8d2c-ca42915fea53"
+    },
+    {
+      "id": "d0e07eb3-f0d9-412d-b060-ab8295219c8d",
+      "type": "istar.OrRefinementLink",
+      "source": "dc005125-8e92-464a-875a-5c8ad27c5092",
+      "target": "b575fbe6-0995-4926-8d2c-ca42915fea53"
+    },
+    {
+      "id": "8595195f-8317-4396-a90c-89d5d45b4cfc",
+      "type": "istar.QualificationLink",
+      "source": "d63a52b5-4cf0-4502-95e5-4fa2b1495e58",
+      "target": "aac1cd43-7311-4a31-9a18-9bec3a30d4a7"
+    },
+    {
+      "id": "364ded65-2c29-4bcd-a19a-fa9a1bf0756d",
+      "type": "istar.QualificationLink",
+      "source": "a494e006-3cbc-44ee-84a7-e91ecebbb1be",
+      "target": "aac1cd43-7311-4a31-9a18-9bec3a30d4a7"
+    },
+    {
+      "id": "9dee5390-fcfe-47bb-a71c-08b9f3b69d29",
+      "type": "istar.ContributionLink",
+      "source": "9da1eed5-0821-4c40-a49b-1e47a92e25ed",
+      "target": "2e19a386-ee9f-4159-98d3-25049fcf6aa6",
+      "label": "hurt"
+    },
+    {
+      "id": "ae046b66-bc69-4abd-ac9c-3840dffb177e",
+      "type": "istar.ContributionLink",
+      "source": "9da1eed5-0821-4c40-a49b-1e47a92e25ed",
+      "target": "d63a52b5-4cf0-4502-95e5-4fa2b1495e58",
+      "label": "make"
+    },
+    {
+      "id": "cc82b446-9dcc-4430-8f00-0d15d6a21858",
+      "type": "istar.ContributionLink",
+      "source": "9da1eed5-0821-4c40-a49b-1e47a92e25ed",
+      "target": "a494e006-3cbc-44ee-84a7-e91ecebbb1be",
+      "label": "hurt"
+    },
+    {
+      "id": "6fb59b0d-b072-42ff-8173-ace5b3738697",
+      "type": "istar.ContributionLink",
+      "source": "56d7658c-ae00-42c7-be87-edb7470298af",
+      "target": "2e19a386-ee9f-4159-98d3-25049fcf6aa6",
+      "label": "help"
+    },
+    {
+      "id": "91a72e7c-7b45-4db9-a8c8-2daa8ddfa37a",
+      "type": "istar.ContributionLink",
+      "source": "56d7658c-ae00-42c7-be87-edb7470298af",
+      "target": "a494e006-3cbc-44ee-84a7-e91ecebbb1be",
+      "label": "hurt"
+    }
+  ],
+  "display": {
+    "16e418dc-aa75-43b4-a139-b75d75d4fe96": {
+      "width": 116.203125,
+      "height": 52
+    },
+    "56d7658c-ae00-42c7-be87-edb7470298af": {
+      "width": 122.64582824707031,
+      "height": 42.666664123535156
+    },
+    "528ed086-9aeb-44dc-8312-c15e59fb381b": {
+      "vertices": [
+        {
+          "x": 426,
+          "y": 109
+        }
+      ]
+    }
+  },
+  "tool": "pistar.2.0.0",
+  "istar": "2.0",
+  "saveDate": "Mon, 11 Jan 2021 06:11:13 GMT",
+  "diagram": {
+    "width": 2000,
+    "height": 1300,
+    "name": "Welcome Model",
+    "customProperties": {
+      "Description": "Welcome to the piStar tool! This model describe some of the recent improvements in the tool.\n\nFor help using this tool, please check the Help menu above"
+    }
+  }
+}
